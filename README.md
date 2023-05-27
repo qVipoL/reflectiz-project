@@ -11,7 +11,7 @@ The system has 3 main services:
 
 ## How to run?
 
-1. create .env file:
+1. Create .env file in project root with the following contents:
 
 ```
 # General Config
