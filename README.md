@@ -1,3 +1,5 @@
+# Author: Andrey Burtsev
+
 ## Reflectiz Domain Scanner Project
 
 System is built with the nestjs framework and with the use of a scheduler,
