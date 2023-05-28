@@ -12,7 +12,7 @@
     "start": "yarn prisma:push && nest start",
     "start:dev": "yarn prisma:push && nest start --watch",
     "start:debug": "yarn prisma:push && nest start --debug --watch",
-    "start:prod": "yarn prisma:push && node dist/main",
+    "start:prod": "yarn prisma:push && yarn build && node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
